@@ -209,3 +209,112 @@
     });
   });
 })();
+
+
+var slider1 = document.getElementById("cv");
+var output1 = document.getElementById("value1");
+output1.innerHTML = slider1.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider1.oninput = function() {
+  output1.innerHTML = this.value;
+}
+
+var slider2 = document.getElementById("regresi");
+var output2 = document.getElementById("value2");
+output2.innerHTML = slider2.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider2.oninput = function() {
+  output2.innerHTML = this.value;
+}
+
+var slider3 = document.getElementById("timeseries");
+var output3 = document.getElementById("value3");
+output3.innerHTML = slider3.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider3.oninput = function() {
+  output3.innerHTML = this.value;
+}
+
+var slider4 = document.getElementById("eda");
+var output4 = document.getElementById("value4");
+output4.innerHTML = slider4.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider4.oninput = function() {
+  output4.innerHTML = this.value;
+}
+
+var slider5 = document.getElementById("nlp");
+var output5 = document.getElementById("value5");
+output5.innerHTML = slider5.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider5.oninput = function() {
+  output5.innerHTML = this.value;
+}
+
+var slider6 = document.getElementById("speech");
+var output6 = document.getElementById("value6");
+output6.innerHTML = slider6.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider6.oninput = function() {
+  output6.innerHTML = this.value;
+}
+
+var slider7 = document.getElementById("data");
+var output7 = document.getElementById("value7");
+output7.innerHTML = slider7.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider7.oninput = function() {
+  output7.innerHTML = this.value;
+}
+
+var slider8 = document.getElementById("deploy");
+var output8 = document.getElementById("value8");
+output8.innerHTML = slider8.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider8.oninput = function() {
+  output8.innerHTML = this.value;
+}
+
+var slider9 = document.getElementById("fe");
+var output9 = document.getElementById("value9");
+output9.innerHTML = slider9.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider9.oninput = function() {
+  output9.innerHTML = this.value;
+}
+
+var slider10 = document.getElementById("be");
+var output10 = document.getElementById("value10");
+output10.innerHTML = slider10.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider10.oninput = function() {
+  output10.innerHTML = this.value;
+}
+
+var slider11 = document.getElementById("mlops");
+var output11 = document.getElementById("value11");
+output11.innerHTML = slider11.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider11.oninput = function() {
+  output11.innerHTML = this.value;
+}
+
+var slider12 = document.getElementById("writer");
+var output12 = document.getElementById("value12");
+output12.innerHTML = slider12.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider12.oninput = function() {
+  output12.innerHTML = this.value;
+}
