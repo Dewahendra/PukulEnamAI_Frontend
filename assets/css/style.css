@@ -734,12 +734,12 @@ section {
   letter-spacing: 2px;
   text-align: center;
   color: #000000;
-  ffont-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 .containerTalent{
   padding: 25px 0;
   display: grid;
-  float: left:
+  float: left;
 }
 
 .containerTalent2{
