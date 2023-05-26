@@ -737,13 +737,11 @@ section {
   font-family: 'Raleway', sans-serif;
 }
 .containerTalent{
-  padding: 25px 0;
   display: grid;
   float: left;
 }
 
 .containerTalent2{
-  padding: 90px 0;
   display: grid;
   float: left;
 }
@@ -794,7 +792,7 @@ text-align: center;
 }
 
 .proses{
-  margin: 20px 100px;
+  margin: 20px 190px;
 }
 .proses button{
   background-color: #f85f56;
@@ -851,10 +849,12 @@ text-align: center;
 @media (min-width: 1000px) {
   .containerTalent {
     width: 50%; 
-    grid-template-columns: 240px 240px; }
+    grid-template-columns: 240px 240px;
+    padding: 25px 0; }
   .containerTalent2 { 
     width: 50%;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px; }
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    padding: 72px 0; }
 }
 /*--------------------------------------------------------------
 # Partner
