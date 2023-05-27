@@ -747,6 +747,7 @@ section {
 }
 .topic p{
   padding: 25px 0 0 20px;
+  margin: 0px;
 }
 .wrapper {
 height: 50px;
