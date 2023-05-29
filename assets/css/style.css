@@ -1222,14 +1222,9 @@ input::-webkit-slider-thumb {
   line-height: 1;
   font-weight: 700;
 }
-#footer .footer-top .footer-info p {
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 0;
-  font-family: 'Raleway', sans-serif;
-}
-
-#footer .footer-top .footer-info p a {
+#footer .footer-top .footer-info a {
+  color: #fff;
+  font-weight: bold;
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
