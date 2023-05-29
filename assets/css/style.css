@@ -811,9 +811,9 @@ section {
 .wrapper input {
   max-width: 400px;
   width: 135px;
-  margin: 20px 5px;
+  margin: 18px 5px;
   appearance: none;
-  height: 6px;
+  height: 12px;
   border-radius: 25px;
   background-color: #ededed;
   box-shadow: 0 0 0 2px #ededed;
@@ -822,15 +822,15 @@ section {
 }
 input::-webkit-slider-thumb {
   appearance: none;
-  height: 10px;
-  width: 10px;
+  height: 16px;
+  width: 16px;
   border-radius: 50%;
   border: 2px solid #fff;
   background-color: #f85f56;
   box-shadow: -208px 0 0 200px #f85f56;
 }
 .wrapper .slide-value {
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 500;
   color: #333;
   width: 0px;
