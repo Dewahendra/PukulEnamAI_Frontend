@@ -838,9 +838,21 @@ input::-webkit-slider-thumb {
 }
 
 .proses {
-  margin: 20px 190px;
+  margin: 20px 100px;
 }
 .proses button {
+  background-color: #f85f56;
+  font-size: 12px;
+  padding: 10px 24px;
+  border-radius: 12px;
+  border: #333;
+  color: #fff;
+}
+
+.reset{
+  margin: 20px 100px;
+}
+.reset button{
   background-color: #f85f56;
   font-size: 12px;
   padding: 10px 24px;
