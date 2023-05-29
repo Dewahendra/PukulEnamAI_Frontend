@@ -838,7 +838,7 @@ input::-webkit-slider-thumb {
 }
 
 .proses {
-  margin: 20px 100px;
+  margin: 20px 130px;
 }
 .proses button {
   background-color: #f85f56;
@@ -850,12 +850,12 @@ input::-webkit-slider-thumb {
 }
 
 .reset{
-  margin: 20px 100px;
+  margin: 20px 15px;
 }
 .reset button{
   background-color: #f85f56;
   font-size: 12px;
-  padding: 10px 24px;
+  padding: 10px 30px;
   border-radius: 12px;
   border: #333;
   color: #fff;
