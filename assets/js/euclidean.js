@@ -53,7 +53,32 @@ const y_train = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1
             return distance;
         }
 
-       
+            var img1 = document.getElementById("foto1")
+            var img2 = document.getElementById("foto2") 
+            var img3 = document.getElementById("foto3")
+            var img4 = document.getElementById("foto4")
+            var img5 = document.getElementById("foto5")
+            var img6 = document.getElementById("foto6")
+            var img7 = document.getElementById("foto7")
+            var img8 = document.getElementById("foto8")
+            var img9 = document.getElementById("foto9")
+            var img10 = document.getElementById("foto10")
+            var img11 = document.getElementById("foto11")
+            var img12 = document.getElementById("foto12")
+            var img13 = document.getElementById("foto13")
+            var img14 = document.getElementById("foto14")
+            var img15 = document.getElementById("foto15")
+            var img16 = document.getElementById("foto16")
+            var img17 = document.getElementById("foto17")
+            var img18 = document.getElementById("foto18")
+            var img19 = document.getElementById("foto19")
+            var img20 = document.getElementById("foto20")
+            var img21 = document.getElementById("foto21")
+            var img22 = document.getElementById("foto22")
+            var img23 = document.getElementById("foto23")
+            var img24 = document.getElementById("foto24")
+            var img25 = document.getElementById("foto25")
+            var img26 = document.getElementById("foto26")
     
         //menjalankan inputan
         async function processData(){
@@ -87,40 +112,6 @@ const y_train = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1
                         y_new[n] = 1 - ((y_new[n] - y_min)/delta)
                     } 
                }
-            
-
-            // opacity = 1 - ( (jarak - jarak_min)/(jarak_max - jarak_min))
-            
-
-
-            console.log(test)
-            
-            var img1 = document.getElementById("foto1")
-            var img2 = document.getElementById("foto2") 
-            var img3 = document.getElementById("foto3")
-            var img4 = document.getElementById("foto4")
-            var img5 = document.getElementById("foto5")
-            var img6 = document.getElementById("foto6")
-            var img7 = document.getElementById("foto7")
-            var img8 = document.getElementById("foto8")
-            var img9 = document.getElementById("foto9")
-            var img10 = document.getElementById("foto10")
-            var img11 = document.getElementById("foto11")
-            var img12 = document.getElementById("foto12")
-            var img13 = document.getElementById("foto13")
-            var img14 = document.getElementById("foto14")
-            var img15 = document.getElementById("foto15")
-            var img16 = document.getElementById("foto16")
-            var img17 = document.getElementById("foto17")
-            var img18 = document.getElementById("foto18")
-            var img19 = document.getElementById("foto19")
-            var img20 = document.getElementById("foto20")
-            var img21 = document.getElementById("foto21")
-            var img22 = document.getElementById("foto22")
-            var img23 = document.getElementById("foto23")
-            var img24 = document.getElementById("foto24")
-            var img25 = document.getElementById("foto25")
-            var img26 = document.getElementById("foto26")
 
             img1.style.opacity = y_new[0];
             img2.style.opacity = y_new[1];
@@ -163,33 +154,31 @@ const y_train = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1
             document.getElementById("be").value = 0;
             document.getElementById("mlops").value = 0;
             document.getElementById("writer").value = 0;
-
-            var img1 = document.getElementById("foto1")
-            var img2 = document.getElementById("foto2") 
-            var img3 = document.getElementById("foto3")
-            var img4 = document.getElementById("foto4")
-            var img5 = document.getElementById("foto5")
-            var img6 = document.getElementById("foto6")
-            var img7 = document.getElementById("foto7")
-            var img8 = document.getElementById("foto8")
-            var img9 = document.getElementById("foto9")
-            var img10 = document.getElementById("foto10")
-            var img11 = document.getElementById("foto11")
-            var img12 = document.getElementById("foto12")
-            var img13 = document.getElementById("foto13")
-            var img14 = document.getElementById("foto14")
-            var img15 = document.getElementById("foto15")
-            var img16 = document.getElementById("foto16")
-            var img17 = document.getElementById("foto17")
-            var img18 = document.getElementById("foto18")
-            var img19 = document.getElementById("foto19")
-            var img20 = document.getElementById("foto20")
-            var img21 = document.getElementById("foto21")
-            var img22 = document.getElementById("foto22")
-            var img23 = document.getElementById("foto23")
-            var img24 = document.getElementById("foto24")
-            var img25 = document.getElementById("foto25")
-            var img26 = document.getElementById("foto26")
+           
+            var output1 = document.getElementById("value1");
+                output1.innerHTML = 0;
+            var output2 = document.getElementById("value2");
+                output2.innerHTML = 0;
+            var output3 = document.getElementById("value3");
+                output3.innerHTML = 0;
+            var output4 = document.getElementById("value4");
+                output4.innerHTML = 0;
+            var output5 = document.getElementById("value5");
+                output5.innerHTML = 0;
+            var output6 = document.getElementById("value6");
+                output6.innerHTML = 0;
+            var output7 = document.getElementById("value7");
+                output7.innerHTML = 0;
+            var output8 = document.getElementById("value8");
+                output8.innerHTML = 0;
+            var output9 = document.getElementById("value9");
+                output9.innerHTML = 0;
+            var output10 = document.getElementById("value10");
+                output10.innerHTML = 0;
+            var output11 = document.getElementById("value11");
+                output11.innerHTML = 0;
+            var output12 = document.getElementById("value12");
+                output12.innerHTML = 0;
 
             img1.style.opacity = 0.5;
             img2.style.opacity = 0.5;
