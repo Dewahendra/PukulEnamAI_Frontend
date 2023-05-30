@@ -838,10 +838,10 @@ input::-webkit-slider-thumb {
   color: #fff;
 }
 
-.reset{
+.reset {
   margin: 20px 15px;
 }
-.reset button{
+.reset button {
   background-color: #f85f56;
   font-size: 12px;
   padding: 10px 30px;
@@ -854,6 +854,36 @@ input::-webkit-slider-thumb {
 
 .proses button:hover {
   background-color: #ef8c86;
+}
+
+.help-icon {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  left: 400px;
+  top: -58px;
+}
+
+.help-icon i {
+  font-size: 25px;
+}
+
+.help-icon::after {
+  content: 'Angka Pada Slider Menunjukkan Penguasaan Skill Dari Seorang Talent (Semakin Besar Angka Maka Akan Semakin Ahli Dalam Bidang Tersebut)';
+  text-align: center;
+  position: absolute;
+  top: 30px;
+  left: -30px;
+  background-color: #f85f56;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.help-icon:hover::after {
+  opacity: 1;
 }
 
 .talent img {
@@ -913,6 +943,16 @@ input::-webkit-slider-thumb {
     padding: 72px 0;
   }
 }
+
+@media (max-width: 768px) {
+  .proses,
+  .reset,
+  .help-icon {
+    flex-basis: auto;
+    max-width: 100%;
+    margin: 5px;
+  }
+}
 /*--------------------------------------------------------------
 # Partner
 --------------------------------------------------------------*/
@@ -957,6 +997,23 @@ input::-webkit-slider-thumb {
 
 .partner .member:not(:hover) img {
   filter: brightness(70%);
+}
+
+@media (max-width: 768px) {
+  .partner .row.justify-content-center {
+    flex-wrap: wrap;
+  }
+
+  .partner .col-lg-3 {
+    flex-basis: calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    justify-content: center;
+  }
+
+  .partner .member {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1096,6 +1153,7 @@ input::-webkit-slider-thumb {
   align-items: center;
   margin-bottom: 80px;
   width: 400px;
+  height: auto;
 }
 .contact .info .email,
 .contact .info .phone {
@@ -1113,43 +1171,7 @@ input::-webkit-slider-thumb {
 .contact .email-form .form-group {
   padding-bottom: 8px;
 }
-.contact .email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 700;
-}
-.contact .email-form .error-message br + br {
-  margin-top: 25px;
-}
-.contact .email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #f85f56;
-  text-align: center;
-  padding: 15px;
-  font-weight: 700;
-}
-.contact .email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-.contact .email-form .loading:before {
-  content: '';
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #f85f56;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
+
 .contact .email-form input,
 .contact .email-form textarea {
   border-radius: 8px;
@@ -1168,28 +1190,34 @@ input::-webkit-slider-thumb {
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
+  margin-top: 10px;
 }
 .contact .email-form button[type='submit']:hover {
   background: #fff;
   color: #f85f56;
 }
-.text-center{
-  text-align: right;
-}
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
+
+@media (max-width: 768px) {
+  .contact .row {
+    flex-direction: column;
   }
-  100% {
-    transform: rotate(360deg);
+
+  .contact .col-lg-5,
+  .contact .col-lg-7 {
+    width: 100%;
   }
-}
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
+
+  .contact .info img {
+    display: none;
   }
-  100% {
-    transform: rotate(360deg);
+
+  .contact .email-form {
+    width: 90%;
+  }
+
+  .contact .email-form button[type='submit'] {
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 }
 
