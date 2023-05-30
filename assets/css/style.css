@@ -186,7 +186,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   font-family: 'Raleway', sans-serif;
   color: #fff;
   white-space: nowrap;
@@ -229,7 +229,6 @@ h6 {
   border-radius: 30px;
   display: inline-block;
   float: right;
-  margin-top: 5px;
   overflow: hidden;
   position: relative;
   z-index: 2;
@@ -331,15 +330,15 @@ h6 {
 #hero h1 {
   margin: 0 0 20px 0;
   font-size: 60px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 70px;
   color: #fff;
 }
 
 #hero p {
+  font-size: 20px;
   color: #fff;
   margin-bottom: 40px;
-  font-size: 15px;
   max-width: 600px;
 }
 
@@ -502,7 +501,7 @@ section {
 
 .section-title h2 {
   margin: 0;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 700;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -510,14 +509,12 @@ section {
 }
 
 .section-title p {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 20px;
   padding: 0;
   margin: 0;
   margin-top: 20px;
-  letter-spacing: 2px;
   text-align: center;
-  color: #000000;
+  color: #000;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -537,7 +534,7 @@ section {
 
 .work .single-work h3 {
   color: #000000;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 20px;
 }
 .work .single-work p {
@@ -562,7 +559,7 @@ section {
 }
 .breadcrumbs h2 {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 700;
   margin: 0;
 }
 @media (max-width: 992px) {
@@ -604,30 +601,27 @@ section {
 --------------------------------------------------------------*/
 
 .about-title {
-  background: #f85f56;
   border: 0;
   padding: 10px 30px;
-  color: #fff;
 }
 
 .about-title h2 {
   margin: 0;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 700;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  color: #fff;
+  color: #f85f56;
 }
 
 .about-title p {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
   padding: 0;
   margin: 0;
   margin-top: 20px;
-  letter-spacing: 2px;
   text-align: center;
-  color: #fff;
+  color: #000;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -679,14 +673,14 @@ section {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #f85f56;
+  color: #000;
 }
 .about .member .social {
   margin-top: 10px;
 }
 .about .member .social a {
   transition: color 0.3s;
-  color: rgba(255, 148, 41, 0.588);
+  color: rgba(255, 100, 40, 0.588);
 }
 .about .member .social a:hover {
   color: #f85f56;
@@ -697,12 +691,11 @@ section {
 }
 
 .end-about p {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
   padding: 0;
   margin: 0;
   margin-top: 40px;
-  letter-spacing: 2px;
   max-width: 750px;
   text-align: center;
   margin-left: auto;
@@ -745,7 +738,7 @@ section {
   font-size: 70px;
   margin-top: 30px;
   display: block;
-  font-weight: 600;
+  font-weight: 700;
   color: #fff;
 }
 .counts .count-box p {
@@ -761,21 +754,19 @@ section {
 --------------------------------------------------------------*/
 .talent .talent-title h2 {
   margin: 0;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 700;
-  letter-spacing: 2px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: #f85f56;
 }
 
 .talent .talent-title p {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
   padding: 0;
   margin: 0;
   margin-top: 20px;
-  letter-spacing: 2px;
   text-align: center;
   color: #000000;
   font-family: 'Raleway', sans-serif;
@@ -790,8 +781,8 @@ section {
   float: left;
 }
 .topic p {
-  padding: 25px 0 0 20px;
-  margin: 0px;
+  padding: 20px 0 0 10px;
+  margin: 10px;
 }
 .wrapper {
   height: 50px;
@@ -804,7 +795,6 @@ section {
   border-color: #f85f56;
   border-width: thin;
   background: #fff;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .wrapper input {
@@ -830,7 +820,7 @@ input::-webkit-slider-thumb {
 }
 .wrapper .slide-value {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   color: #333;
   width: 0px;
   text-align: center;
@@ -856,8 +846,10 @@ input::-webkit-slider-thumb {
   font-size: 12px;
   padding: 10px 30px;
   border-radius: 12px;
-  border: #333;
-  color: #fff;
+  border-style: solid;
+  border-color: #f85f56;
+  border-width: thin;
+  background: #fff;
 }
 
 .proses button:hover {
@@ -866,8 +858,8 @@ input::-webkit-slider-thumb {
 
 .talent img {
   border-radius: 10px;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border: solid;
   border-color: #f85f56;
   object-fit: cover;
@@ -929,20 +921,18 @@ input::-webkit-slider-thumb {
 }
 .partner .partner-title h2 {
   margin: 0;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 700;
-  letter-spacing: 2px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: #fff;
 }
 .partner .partner-title p {
-  font-size: 15px;
-  font-weight: 200;
+  font-size: 20px;
+  font-weight: 400;
   padding: 0;
   margin: 0;
   margin-top: 20px;
-  letter-spacing: 2px;
   text-align: center;
   color: #fff;
   font-family: 'Raleway', sans-serif;
@@ -981,23 +971,22 @@ input::-webkit-slider-thumb {
 }
 .testi-title h2 {
   margin: 0;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 700;
-  letter-spacing: 2px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: #f85f56;
 }
 .testi-title p {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
   padding: 0;
   margin: 0;
   margin-top: 20px;
-  letter-spacing: 2px;
   text-align: center;
   color: #000000;
   font-family: 'Raleway', sans-serif;
+  padding-bottom: 35px;
 }
 .testimonials::before {
   content: '';
@@ -1098,7 +1087,6 @@ input::-webkit-slider-thumb {
   margin-top: 30px;
   font-size: 30px;
   font-weight: 700;
-  letter-spacing: 2px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: #fff;
@@ -1120,7 +1108,7 @@ input::-webkit-slider-thumb {
   color: #f85f56;
 }
 .contact .email-form {
-  width: 100%;
+  width: 70%;
 }
 .contact .email-form .form-group {
   padding-bottom: 8px;
@@ -1131,7 +1119,7 @@ input::-webkit-slider-thumb {
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .contact .email-form .error-message br + br {
   margin-top: 25px;
@@ -1142,7 +1130,7 @@ input::-webkit-slider-thumb {
   background: #f85f56;
   text-align: center;
   padding: 15px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .contact .email-form .loading {
   display: none;
@@ -1185,6 +1173,9 @@ input::-webkit-slider-thumb {
   background: #fff;
   color: #f85f56;
 }
+.text-center{
+  text-align: right;
+}
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1221,7 +1212,6 @@ input::-webkit-slider-thumb {
   margin-bottom: 15px;
   background: #f85f56;
   color: #fff;
-  border-bottom: 4px solid #00000099;
   text-align: center;
   padding: 30px 20px;
   border-radius: 20px;
@@ -1235,7 +1225,6 @@ input::-webkit-slider-thumb {
 }
 #footer .footer-top .footer-info a {
   color: #fff;
-  font-weight: bold;
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
@@ -1261,7 +1250,7 @@ input::-webkit-slider-thumb {
 }
 #footer .footer-top h4 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   color: #f85f56;
   position: relative;
   padding-bottom: 12px;
