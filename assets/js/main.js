@@ -323,9 +323,19 @@ const name = document.getElementById('name');
 const email = document.getElementById('email');
 const deskripsi = document.getElementById('deskripsi');
 const button = document.getElementById('button');
+
 button.addEventListener('click', (e) => {
   e.preventDefault();
   console.log('Submit');
+
+  if (!name.value || !email.value || !deskripsi.value) {
+    Swal.fire({
+      icon: 'warning',
+      title: 'Peringatan',
+      text: 'Mohon Isi Form Dengan Benar',
+    });
+    return;
+  }
 
   let ebody = `
     <b>Name: </b>${name.value}
@@ -339,7 +349,24 @@ button.addEventListener('click', (e) => {
     SecureToken: 'ef80d86a-b75d-445f-84e5-8703af85d9ea',
     To: 'lodonkomtl@gmail.com',
     From: 'lodonkomtl@gmail.com',
-    Subject: 'Email From' + email.value,
+    Subject: 'Email From ' + email.value,
     Body: ebody,
-  }).then((message) => alert(message));
+  })
+    .then((message) => {
+      Swal.fire({
+        icon: 'success',
+        title: 'Success',
+        text: 'Ide Berhasil Terkirim!',
+      });
+      name.value = '';
+      email.value = '';
+      deskripsi.value = '';
+    })
+    .catch((error) => {
+      Swal.fire({
+        icon: 'error',
+        title: 'Error',
+        text: 'Maaf Ide Anda Gagal Terkirim :(',
+      });
+    });
 });
