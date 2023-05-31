@@ -349,7 +349,7 @@ button.addEventListener('click', (e) => {
     SecureToken: 'ef80d86a-b75d-445f-84e5-8703af85d9ea',
     To: 'lodonkomtl@gmail.com',
     From: 'lodonkomtl@gmail.com',
-    Subject: 'Email From ' + email.value,
+    Subject: 'Email From' + email.value,
     Body: ebody,
   })
     .then((message) => {
