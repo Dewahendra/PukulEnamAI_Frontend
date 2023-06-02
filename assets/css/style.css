@@ -336,15 +336,14 @@ h6 {
 }
 
 #hero p {
-  font-size: 20px;
+  font-size: 15px;
   color: #fff;
   margin-bottom: 40px;
   max-width: 600px;
 }
 
 #hero .hero-img img {
-  width: 600px;
-  max-width: 600px;
+  max-width: 500px;
 }
 
 #hero .animated {
