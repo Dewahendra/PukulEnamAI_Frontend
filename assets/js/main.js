@@ -346,10 +346,10 @@ button.addEventListener('click', (e) => {
     `;
 
   Email.send({
-    SecureToken: 'ef80d86a-b75d-445f-84e5-8703af85d9ea',
-    To: 'lodonkomtl@gmail.com',
+    SecureToken: '',
+    To: 'iga@pukulenam.id',
     From: 'lodonkomtl@gmail.com',
-    Subject: 'Email From' + email.value,
+    Subject: 'Potential Client: ' + name.value,
     Body: ebody,
   })
     .then((message) => {
