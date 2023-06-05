@@ -101,7 +101,7 @@ const x_train = [[10,  8,  6, 10, 10,  7,  7,  8,  2,  4,  8,  2],
             img14.style.opacity = y_new[13];
         } processData()
 
-        document.getElementById('res').onclick = function(){
+        function reset(){
             document.getElementById("cv").value = 0;
             document.getElementById("regresi").value = 0;
             document.getElementById("timeseries").value = 0;
