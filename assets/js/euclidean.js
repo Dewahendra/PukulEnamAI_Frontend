@@ -154,16 +154,5 @@ const x_train = [[10,  8,  6, 10, 10,  7,  7,  8,  2,  4,  8,  2],
             img12.style.opacity = 0.5;
             img13.style.opacity = 0.5;
             img14.style.opacity = 0.5;
-            img15.style.opacity = 0.5;
-            img16.style.opacity = 0.5;
-            img17.style.opacity = 0.5;
-            img18.style.opacity = 0.5;
-            img19.style.opacity = 0.5;
-            img20.style.opacity = 0.5;
-            img21.style.opacity = 0.5;
-            img22.style.opacity = 0.5;
-            img23.style.opacity = 0.5;
-            img24.style.opacity = 0.5;
-            img25.style.opacity = 0.5;
-            img26.style.opacity = 0.5;
+            
          }reset()
