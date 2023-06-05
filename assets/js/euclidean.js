@@ -1,45 +1,32 @@
 
 // dataset team_resources
 //features data
-const x_train = [[0.5 , 0.8 , 0.7 , 1.  , 0.9 , 0.05, 0.6 , 0.3 , 0.4 , 0.15, 0.1 , 0.2 ],
-   [0.6 , 0.05, 0.1 , 0.2 , 0.9 , 1.  , 0.7 , 0.8 , 0.5 , 0.4 , 0.3 ,
-    0.15],
-   [0.7 , 0.6 , 0.05, 0.1 , 1.  , 0.15, 0.9 , 0.8 , 0.5 , 0.3 , 0.4 , 0.2 ],
-   [0.8 , 0.6 , 0.9 , 0.7 , 0.4 , 1.  , 0.3 , 0.5 , 0.2 , 0.1 , 0.15, 0.05],
-   [0.05, 0.6 , 0.5 , 0.7 , 0.3 , 0.4 , 0.8 , 0.2 , 0.9 , 0.15, 0.1 , 1.  ],
-   [0.5 , 1.  , 0.7 , 0.6 , 0.9 , 0.3 , 0.4 , 0.8 , 0.2 , 0.1 , 0.1 , 0.05],
-   [1.  , 0.8 , 0.6 , 0.7 , 0.9 , 0.5 , 0.3 , 0.2 , 0.1 , 0.15, 0.4 , 0.05],
-   [0.1 , 0.05, 0.7 , 0.8 , 0.6 , 0.5 , 0.2 , 0.4 , 0.9 , 0.3 , 0.15, 1.  ],
-   [0.8 , 1.  , 0.9 , 0.7 , 0.6 , 0.5 , 0.2 , 0.3 , 0.1 , 0.15, 0.4 , 0.05],
-   [1.  , 0.8 , 0.5 , 0.2 , 0.9 , 0.7 , 0.4 , 0.6 , 0.3 , 0.15, 0.05, 0.1 ],
-   [0.1 , 0.05, 0.7 , 0.6 , 0.5 , 0.8 , 0.4 , 0.3 , 0.9 , 0.2 , 1.  , 0.15],
-   [1.  , 0.8 , 0.9 , 0.6 , 0.7 , 0.4 , 0.3 , 0.2 , 0.5 , 0.15, 0.1 , 0.05],
-   [1.  , 0.9 , 0.05, 0.8 , 0.5 , 0.1 , 0.4 , 0.7 , 0.3 , 0.6 , 0.2 , 0.15],
-   [0.4 , 0.3 , 0.05, 0.2 , 0.1 , 0.15, 0.6 , 0.9 , 0.8 , 1.  , 0.7 , 0.5 ],
-   [0.05, 1.  , 0.1 , 0.15, 0.2 , 0.3 , 0.4 , 0.6 , 0.7 , 0.9 , 0.8 , 0.5 ],
-   [0.9 , 0.8 , 0.6 , 0.7 , 0.4 , 1.  , 0.5 , 0.3 , 0.1 , 0.15, 0.2 , 0.05],
-   [0.3 , 0.05, 0.1 , 0.15, 0.4 , 0.2 , 0.7 , 0.8 , 1.  , 0.9 , 0.6 , 0.5 ],
-   [0.05, 0.15, 0.4 , 0.3 , 0.2 , 0.1 , 0.7 , 0.8 , 1.  , 0.9 , 0.6 , 0.5 ],
-   [0.15, 0.3 , 0.2 , 0.1 , 0.05, 0.4 , 0.7 , 0.8 , 1.  , 0.9 , 0.6 , 0.5 ],
-   [0.8 , 0.6 , 0.7 , 0.9 , 0.1 , 0.05, 0.5 , 0.15, 0.4 , 1.  , 0.2 , 0.3 ],
-   [0.05, 0.1 , 1.  , 0.15, 0.2 , 0.9 , 0.3 , 0.4 , 0.8 , 0.5 , 0.6 , 0.7 ],
-   [0.9 , 0.6 , 0.1 , 0.7 , 0.15, 0.5 , 0.2 , 0.05, 0.4 , 0.3 , 0.8 , 1.  ],
-   [1.  , 0.4 , 0.9 , 0.5 , 0.8 , 0.6 , 0.7 , 0.3 , 0.05, 0.2 , 0.1 , 0.15],
-   [0.05, 0.1 , 0.15, 0.2 , 0.3 , 0.4 , 0.6 , 0.7 , 0.8 , 1.  , 0.9 , 0.5 ],
-   [0.7 , 0.3 , 0.6 , 0.4 , 0.5 , 0.05, 0.2 , 0.1 , 0.15, 0.9 , 0.8 , 1.  ],
-   [0.8 , 0.7 , 0.2 , 0.6 , 0.4 , 0.3 , 0.5 , 0.15, 1.  , 0.9 , 0.1 , 0.05]]
+const x_train = [[10,  8,  6, 10, 10,  7,  7,  8,  2,  4,  8,  2],
+                [ 1,  2,  2,  2,  2,  2,  4,  5,  6,  6,  3,  2],
+                [ 6,  3,  1,  7,  2,  1,  5,  8, 10,  8,  3,  6],
+                [ 6,  9,  9,  7,  3,  3,  3,  7,  2,  5,  6,  2],
+                [ 8,  8,  6,  7,  4,  4,  5,  7,  5,  4,  8, 10],
+                [ 3,  4,  3,  4,  3,  0,  4,  0,  4,  2,  2,  5],
+                [ 7,  3,  3,  1,  2,  6,  3,  9,  8,  9,  6,  7],
+                [ 4,  6,  3,  5,  5,  5,  4,  5,  5,  5,  3,  3],
+                [ 6,  6,  1,  1,  1,  1,  4,  1,  4,  1,  1, 10],
+                [ 4,  8,  8,  8,  5,  4,  3,  3,  3,  2,  4,  5],
+                [ 7,  8,  8,  8,  8,  2,  5,  5,  5,  5,  2,  2],
+                [ 5,  5,  5,  5,  5,  5,  9,  9,  9, 10,  6,  5],
+                [ 0,  0,  0,  3,  0,  0,  0, 10, 10, 10,  4,  6],
+                [ 8,  9,  8,  7,  7, 10,  8,  9,  1,  4,  6,  9]]
 
-// labels data
-const y_train = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
        
         //mencari jarak euclidean
         function euclidianDistance(a,b){
             var distance = 0
             var n
-            for(n=0; n<a.length; n++){
-                distance += Math.pow(a[n]-b[n], 2);
+            for (n = 0; n < a.length; n++) {
+                if(a[n]!=0){
+                    distance += Math.pow(a[n] - (b[n]/10), 2);
+                }
             }
-            return distance**0.5
+            return Math.sqrt(distance);
         }
 
         // mendapatkan jarak dari point baru ke setiap data
@@ -67,18 +54,7 @@ const y_train = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1
             var img12 = document.getElementById("foto12")
             var img13 = document.getElementById("foto13")
             var img14 = document.getElementById("foto14")
-            var img15 = document.getElementById("foto15")
-            var img16 = document.getElementById("foto16")
-            var img17 = document.getElementById("foto17")
-            var img18 = document.getElementById("foto18")
-            var img19 = document.getElementById("foto19")
-            var img20 = document.getElementById("foto20")
-            var img21 = document.getElementById("foto21")
-            var img22 = document.getElementById("foto22")
-            var img23 = document.getElementById("foto23")
-            var img24 = document.getElementById("foto24")
-            var img25 = document.getElementById("foto25")
-            var img26 = document.getElementById("foto26")
+        
     
         //menjalankan inputan
         async function processData(){
@@ -97,21 +73,17 @@ const y_train = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1
 
 
             test = [slider1, slider2, slider3, slider4, slider5, slider6, slider7, slider8, slider9, slider10, slider11, slider12]
-            if(test[0]==0 && test[1]==0 && test[2]==0 && test[3]==0 && test[4]==0 && 
-               test[5]==0 && test[6]==0 && test[7]==0 && test[8]==0 && test[9]==0 && 
-               test[10]==0 && test[11]==0){
-                y_new = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 
-                         0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 
-                         0.5, 0.5, 0.5, 0.5, 0.5, 0.5]
-               }else{
-                y_new = getNeigh(x_train, test)
-                var y_min = Math.min.apply(null, y_new)
-                var y_max = Math.max.apply(null, y_new)
-                var delta = y_max-y_min
-                    for(n=0; n<y_new.length; n++){
-                        y_new[n] = 1 - ((y_new[n] - y_min)/delta)
-                    } 
-               }
+                
+            y_new = getNeigh(x_train, test)
+            var y_min = Math.min.apply(null, y_new)
+            var y_max = Math.max.apply(null, y_new)
+            var delta = y_max-y_min
+            for(n=0; n<y_new.length; n++){
+                y_new[n] = 1 - ((y_new[n] - y_min)/delta)
+                if(y_new[n]==0){
+                   y_new[n]=0.05
+                 }
+             }
 
             img1.style.opacity = y_new[0];
             img2.style.opacity = y_new[1];
@@ -127,18 +99,6 @@ const y_train = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1
             img12.style.opacity = y_new[11];
             img13.style.opacity = y_new[12];
             img14.style.opacity = y_new[13];
-            img15.style.opacity = y_new[14];
-            img16.style.opacity = y_new[15];
-            img17.style.opacity = y_new[16];
-            img18.style.opacity = y_new[17];
-            img19.style.opacity = y_new[18];
-            img20.style.opacity = y_new[19];
-            img21.style.opacity = y_new[20];
-            img22.style.opacity = y_new[21];
-            img23.style.opacity = y_new[22];
-            img24.style.opacity = y_new[23];
-            img25.style.opacity = y_new[24];
-            img26.style.opacity = y_new[25];
         } processData()
 
         document.getElementById('res').onclick = function(){
@@ -206,4 +166,4 @@ const y_train = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1
             img24.style.opacity = 0.5;
             img25.style.opacity = 0.5;
             img26.style.opacity = 0.5;
-         };
+         }reset()
