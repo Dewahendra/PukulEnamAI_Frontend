@@ -1005,7 +1005,7 @@ input::-webkit-slider-thumb {
 }
 
 .partner .member:not(:hover) img {
-  filter: brightness(70%);
+  filter: brightness(100%);
 }
 
 @media (max-width: 768px) {
