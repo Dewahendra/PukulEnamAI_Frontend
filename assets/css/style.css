@@ -596,111 +596,42 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Third Page (About)
+# Third Page (About) (Tentang Kami)
 --------------------------------------------------------------*/
 
-.about-title {
-  border: 0;
-  padding: 10px 30px;
+.about {
+  margin-bottom: 100px;
 }
-
-.about-title h2 {
-  margin: 0;
+.about .content h3 {
+  font-weight: 600;
   font-size: 40px;
-  font-weight: 700;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
   color: #f85f56;
+  text-align: center;
 }
 
-.about-title p {
-  font-size: 20px;
-  font-weight: 400;
-  padding: 0;
-  margin: 0;
-  margin-top: 20px;
-  text-align: center;
-  color: #000;
-  font-family: 'Raleway', sans-serif;
-}
-
-.about .member {
-  text-align: center;
-  margin-bottom: 80px;
-  margin-top: 80px;
-  position: relative;
-}
-.about .member .pic {
-  border-radius: 4px;
-  overflow: hidden;
-}
-.about .member img {
-  transition: all ease-in-out 0.4s;
-}
-.about .member:hover img {
-  transform: scale(1.1);
-}
-.about .member .member-info {
-  position: absolute;
-  bottom: -80px;
-  left: 0px;
-  right: 0px;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 15px 0;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-.about .member h4 {
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: #f85f56;
-  position: relative;
-  padding-bottom: 10px;
-}
-.about .member h4::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: #f85f56;
-  bottom: 0;
-  left: calc(50% - 25px);
-}
-.about .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-  color: #000;
-}
-.about .member .social {
-  margin-top: 10px;
-}
-.about .member .social a {
-  transition: color 0.3s;
-  color: rgba(255, 100, 40, 0.588);
-}
-.about .member .social a:hover {
-  color: #f85f56;
-}
-.about .member .social i {
-  font-size: 20px;
-  margin: 0 2px;
-}
-
-.end-about p {
-  font-size: 20px;
-  font-weight: 400;
-  padding: 0;
-  margin: 0;
-  margin-top: 40px;
-  max-width: 750px;
-  text-align: center;
+.about .content p:last-child {
+  margin-bottom: 0;
+  text-align: justify;
+  font-weight: 500;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  color: #000000;
-  font-family: 'Raleway', sans-serif;
+}
+
+.about .content img {
+  width: 50%;
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about .col-md-4,
+  .about .col-md-8 {
+    flex-basis: 100%;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -753,12 +684,12 @@ section {
 --------------------------------------------------------------*/
 .card-img-top {
   border-radius: 10%;
-border: solid;
-border-color: #f85f56;
+  border: solid;
+  border-color: #f85f56;
   object-fit: cover;
   cursor: pointer;
 }
-.swal2-title{
+.swal2-title {
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -986,26 +917,53 @@ input::-webkit-slider-thumb {
   color: #fff;
   font-family: 'Raleway', sans-serif;
 }
-.partner .member {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 80px;
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: #f85f56;
+  white-space: nowrap;
   position: relative;
 }
-.partner .member .pic {
-  width: 200px;
-  border-radius: 4px;
-  overflow: hidden;
-}
-.partner .member img {
-  transition: filter 0.3s ease;
-}
-.partner .member:hover img {
-  filter: brightness(120%);
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: '';
+  z-index: 2;
 }
 
-.partner .member:not(:hover) img {
-  filter: brightness(100%);
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 84, 84, 0), #f85f56);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #f85f56);
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  width: 150px;
+  height: 115px;
+  margin: 0 40px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 @media (max-width: 768px) {
@@ -1017,11 +975,6 @@ input::-webkit-slider-thumb {
     flex-basis: calc(50% - 20px);
     max-width: calc(50% - 20px);
     justify-content: center;
-  }
-
-  .partner .member {
-    margin-top: 50px;
-    margin-bottom: 20px;
   }
 }
 
