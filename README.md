@@ -1,3 +1,47 @@
+# Interactive Talent Recommender System for AI Consultants
+
+## List of contents
+
+- [Description](#description)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Documentation](#Documentation)
+
+## Description
+
+This project is a collaboration between Rise 2023 Batch 1 and Netflix Company. And this project was made to fulfill the Netflix company's request to their Clients in looking for Talent Engineers to work with on their business. The construction of this project starts from May 1 to June 9, 2023.
+
+## Features
+
+The list of main features in this project are:
+1. An attractive and easy-to-use Team Matchmaking system
+2. Sending project ideas via email
+
+## Requirements
+
+The technical requirements needed to run this project include:
+1. There is a programming language used, namely JavaScript.
+2. Use the SMTPJS API token to activate the email form.
+
+## Installation
+
+Detailed steps about installing this project include:
+1. Clone this repository into local directory:
+git clone https://github.com/Dewahendra/PukulEnamAI_Frontend.git
+
+2. Register the email that you want to use to receive email messages on the SMTPJS website and also verify the registered email
+https://smtpjs.com/
+https://elasticemail.com/account#/create-account?r=20b444a2-b3af-4eb8-bae7-911f6097521c
+
+3. In the main.js section, enter the SecureToken that was created on the SMTPJS website
+
+## Documentation
+![alt text](https://imgur.com/a/xZ1Z6bJ?raw=true)
+
+
+
+
 Team Member
 
 CLOUD COMPUTING: (Universitas Pendidikan Ganesha)
