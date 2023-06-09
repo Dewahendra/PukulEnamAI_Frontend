@@ -34,7 +34,9 @@ git clone https://github.com/Dewahendra/PukulEnamAI_Frontend.git
 https://smtpjs.com/
 https://elasticemail.com/account#/create-account?r=20b444a2-b3af-4eb8-bae7-911f6097521c
 
-3. In the main.js section, enter the SecureToken that was created on the SMTPJS website
+3. In the main.js section, enter the SecureToken that was created on the SMTPJS website.
+
+4. Now everything is ready to use.
 
 ## Documentation
 ![alt text](https://github.com/Dewahendra/PukulEnamAI_Frontend/blob/main/assets/img/Documentation/1.png?raw=true)
