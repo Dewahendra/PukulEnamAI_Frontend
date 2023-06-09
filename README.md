@@ -37,12 +37,22 @@ https://elasticemail.com/account#/create-account?r=20b444a2-b3af-4eb8-bae7-911f6
 3. In the main.js section, enter the SecureToken that was created on the SMTPJS website
 
 ## Documentation
-![alt text](https://imgur.com/a/xZ1Z6bJ?raw=true)
+![alt text](https://github.com/Dewahendra/PukulEnamAI_Frontend/blob/main/assets/img/Documentation/1.png?raw=true)
+
+![alt text](https://github.com/Dewahendra/PukulEnamAI_Frontend/blob/main/assets/img/Documentation/2.png?raw=true)
+
+![alt text](https://github.com/Dewahendra/PukulEnamAI_Frontend/blob/main/assets/img/Documentation/3.png?raw=true)
+
+![alt text](https://github.com/Dewahendra/PukulEnamAI_Frontend/blob/main/assets/img/Documentation/4.png?raw=true)
+
+![alt text](https://github.com/Dewahendra/PukulEnamAI_Frontend/blob/main/assets/img/Documentation/5.png?raw=true)
+
+![alt text](https://github.com/Dewahendra/PukulEnamAI_Frontend/blob/main/assets/img/Documentation/6.png?raw=true)
+
+![alt text](https://github.com/Dewahendra/PukulEnamAI_Frontend/blob/main/assets/img/Documentation/7.png?raw=true)
 
 
-
-
-Team Member
+## Team Member
 
 CLOUD COMPUTING: (Universitas Pendidikan Ganesha)
 1. Dewa Ketut Mahendra Putra (C308DSX1926)
