@@ -10,7 +10,7 @@
 
 ## Description
 
-This project is a collaboration between Rise 2023 Batch 1 and PukulEnam Company. And this project was made to fulfill the PukulEnam company's request to their Clients in looking for Talent Engineers to work with on their business. The construction of this project starts from May 1 to June 9, 2023.
+This project is a collaboration between Bangkit 2023 Batch 1 and PukulEnam Company. And this project was made to fulfill the PukulEnam company's request to their Clients in looking for Talent Engineers to work with on their business. The construction of this project starts from May 1 to June 9, 2023.
 
 ## Features
 
