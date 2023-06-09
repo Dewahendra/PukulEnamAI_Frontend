@@ -347,8 +347,8 @@ button.addEventListener('click', (e) => {
 
   Email.send({
     SecureToken: '',
-    To: 'iga@pukulenam.id',
-    From: 'lodonkomtl@gmail.com',
+    To: '',
+    From: '',
     Subject: 'Potential Client: ' + name.value,
     Body: ebody,
   })
