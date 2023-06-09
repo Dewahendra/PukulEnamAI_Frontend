@@ -10,7 +10,7 @@
 
 ## Description
 
-This project is a collaboration between Bangkit 2023 Batch 1 and PukulEnam Company. And this project was made to fulfill the PukulEnam company's request to their Clients in looking for Talent Engineers to work with on their business. The construction of this project starts from May 1 to June 9, 2023.
+This project is a collaboration between Bangkit 2023 Batch 1 and PukulEnam Company. And this project was made to fulfill the PukulEnam company's request to their Clients in looking for Talent Engineers to work with on their business. The creation of this project starts from May 1 to June 9, 2023.
 
 ## Features
 
@@ -22,7 +22,7 @@ The list of main features in this project are:
 
 The technical requirements needed to run this project include:
 1. There is a programming language used, namely JavaScript.
-2. Use the SMTPJS API token to activate the email form.
+2. Use the SmtpJS API token to activate the email form.
 
 ## Installation
 
@@ -30,7 +30,7 @@ Detailed steps about installing this project include:
 1. Clone this repository into local directory:
 git clone https://github.com/Dewahendra/PukulEnamAI_Frontend.git
 
-2. Register the email that you want to use to receive email messages on the SMTPJS website and also verify the registered email
+2. Register the email that you want to use to receive email messages on the SmtpJS website and also verify the registered email
 https://smtpjs.com/
 https://elasticemail.com/account#/create-account?r=20b444a2-b3af-4eb8-bae7-911f6097521c
 
